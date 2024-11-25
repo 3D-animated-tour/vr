@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="20913" appversion="7.1.2" start="node2" hassounds="1">
+  <panorama id="node2">
+    <input levelbias="0.400" leveltilesize="1510" overlap="1" width="480" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.webp" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="480">
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+      <video startmutedmobile="0" targetview="" level="1" endaction="loop" format="equi" startonload="1">
+        <source url="videos/Y2mate.mx-Test render 360 in UE5 path tracing-1080p.mp4"/>
+      </video>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata longitude="" title="" author="" customnodeid="" comment="" copyright="" latitude="" heading="0" description="" nodeid="node2" tags="Downloads" info="" source="" datetime=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label background="1" height="20" backgroundalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" borderalpha="1" wordwrap="1" border="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" mode="0"/>
+      <hotspot id="Point01" skinid="Hotspot   2" tilt="1.05" title="" description="" target="$bwd" pan="-115.62" url="{node1}"/>
+      <hotspot id="kelnik" skinid="Ht_link" tilt="-3.3" title="kelnik" description="" target="_blank" pan="-30.5" url="https://www.kelnik.ru/"/>
+      <hotspot id="popup" skinid="ht_info" tilt="-6.34" title="information" description="Иноформация о том как " target="" pan="-206.8" url=""/>
+    </hotspots>
+    <media>
+      <sound id="Element01" tilt="-11.290" level="1.000" pansize="10.000" loop="0" ambientlevel="0.000" mode="1" startmutedmobile="0" nodechangekeep="0" tiltsize="10.000" field="90.000" pan="-335.100">
+        <source mono="0" url="media/better-day-186374.mp3"/>
+      </sound>
+      <sound id="_background" tilt="-1.000" level="1.000" pansize="10.000" loop="-1" ambientlevel="0.000" mode="0" startmutedmobile="0" nodechangekeep="1" tiltsize="10.000" field="90.000" pan="-1.000">
+        <source mono="0" url="media/better-day-186374.mp3"/>
+      </sound>
+    </media>
+    <transition zoomfov="40" zoomin="0" delay="none" blendcolor="0x000000" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" type="crossdissolve" softedge="0" zoomspeed="2" blendtime="1" enabled="1" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control lockedkeyboard="0" lockedmouse="0" dblclickfullscreen="0" lockedwheel="0" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="1" speedwheel="1"/>
+  </panorama>
+  <panorama id="node1">
+    <input levelbias="0.400" leveltilesize="1510" overlap="1" width="480" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.webp" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="480">
+      <level predecode="1" width="480" preload="1" height="480"/>
+      <preview color="0x808080" strip="1"/>
+      <video startmutedmobile="0" targetview="" level="1" endaction="loop" format="equi" startonload="1">
+        <source url="videos/Y2mate.mx-Test render 360 in UE5 lumen-1080p 1.mp4"/>
+      </video>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata longitude="" title="" author="" customnodeid="" comment="" copyright="" latitude="" heading="0" description="" nodeid="node1" tags="Downloads" info="" source="" datetime=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label background="1" height="20" backgroundalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" borderalpha="1" wordwrap="1" border="1" enabled="1" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" mode="0"/>
+      <hotspot id="Point01" skinid="Hotspot   2" tilt="0.59" title="" description="" target="$fwd" pan="-100.4" url="{node2}"/>
+      <hotspot id="ht_img" skinid="ht_image" tilt="-4.21" title="" description="" target="_blank" pan="-8.87" url="images/menu.jpg"/>
+      <hotspot id="Point02" skinid="ht_url" tilt="6.93" title="KELNIK" description="" target="_blank" pan="-264.64" url="https://www.kelnik.ru/"/>
+    </hotspots>
+    <media>
+      <sound id="Element02" tilt="-20.540" level="1.000" pansize="10.000" loop="1" ambientlevel="0.000" mode="1" startmutedmobile="0" nodechangekeep="0" tiltsize="10.000" field="90.000" pan="-325.700">
+        <source mono="0" url="media/believe-in-yourself-background-music-for-video-jazz-version-35-sec-232611.mp3"/>
+      </sound>
+      <sound id="_background" tilt="-1.000" level="1.000" pansize="10.000" loop="-1" ambientlevel="0.000" mode="0" startmutedmobile="0" nodechangekeep="1" tiltsize="10.000" field="90.000" pan="-1.000">
+        <source mono="0" url="media/better-day-186374.mp3"/>
+      </sound>
+    </media>
+    <transition zoomfov="40" zoomin="0" delay="none" blendcolor="0x000000" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" type="crossdissolve" softedge="0" zoomspeed="2" blendtime="1" enabled="1" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
+    <control lockedkeyboard="0" lockedmouse="0" dblclickfullscreen="0" lockedwheel="0" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextvr="1" contextprojections="0" rubberband="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="1" speedwheel="1"/>
+  </panorama>
+  <masternode>
+    <userdata title="" description="" author="" tags="" comment="" copyright=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
